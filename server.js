@@ -11,14 +11,9 @@ var PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "./app/public/home.html"));
-});
+require("./app/routing/apiroute")(app);
+require("./app/routing/htmlroute")(app);
 
-app.get("/survey", function (req, res) {
-    res.sendFile(path.join(__dirname, "./app/public/survey.html"));
-});
-
-app.listen(PORT, function () {
-    console.log("App listening on PORT " + PORT);
+app.listen(PORT, function(){
+    console.log(`App is on on ${PORT}`);
 });
