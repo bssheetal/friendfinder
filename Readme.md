@@ -22,19 +22,33 @@ You can access the app here-https://famouspersonalityfinder.herokuapp.com/
 # Framework structure
 
 FriendFinder
+
     - .gitignore
+    
     - app
+    
       - data
+      
         - friends.js
+        
       - public
+      
         - home.html
+        
         - survey.html
+        
       - routing
+      
         - apiRoutes.js
+        
         - htmlRoutes.js
+        
     - node_modules
+    
     - package.json
+    
     - server.js
+    
 
 # Friend-Finder Interface
 
