@@ -1,64 +1,78 @@
-Description
+# Description
 
 In need of a Friend or want to choose a famous personality who is so similar in your thoughts!Do use this Friend Finder app
 
 You can access the app here-https://famouspersonalityfinder.herokuapp.com/
 
-Technologies Used
+# Technologies Used
 
-JavaScript
+- JavaScript
 
-jQuery
+- jQuery
 
-node.js
+- node.js
 
-Express.js
+- Express.js
 
-HTML
+- HTML
 
-Bootstrap
+- Bootstrap
 
 
-Framework structure
+# Framework structure
 
 FriendFinder
-    - .gitignore
-    - app
-      - data
-        - friends.js
-      - public
-        - home.html
-        - survey.html
-      - routing
-        - apiRoutes.js
-        - htmlRoutes.js
-    - node_modules
-    - package.json
-    - server.js
 
-Friend-Finder Interface
+    - .gitignore
+    
+    - app
+    
+      - data
+      
+        - friends.js
+        
+      - public
+      
+        - home.html
+        
+        - survey.html
+        
+      - routing
+      
+        - apiRoutes.js
+        
+        - htmlRoutes.js
+        
+    - node_modules
+    
+    - package.json
+    
+    - server.js
+    
+
+# Friend-Finder Interface
 
 This is a full stack web Application called as Friend Finder a dating app.The site will take in results from users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
-Installation:
+# Installation:
 
 server.js file should require the basic npm packages: express and path
 Command to run for installation:
 npm install express
 
-Walkthrough of the Code
+# Walkthrough of the Code
 
-1) server.js file sets up the Express server, specifying our port number, the npm packages that need to be loaded, and also the routes, which we have externalized
+* server.js file sets up the Express server, specifying our port number, the npm packages that need to be loaded, and also the routes, which we have externalized
 
-2) There are 2 separate HTML files (home.html and survey.html) that serve as the front-end portion of our code; they determine what the user sees (the homepage and the survey, which will also show the resulting best match)
+* There are 2 separate HTML files (home.html and survey.html) that serve as the front-end portion of our code; they determine what the user sees (the homepage and the survey, which will also show the resulting best match)
 
-3) Our 2 routing files (htmlRoutes.js and apiRoutes.js) determine the back-end logic (based on the request being made, the response that gets sent to the browser); the HTML routes display the survey and the homepage based on the URL that is accessed, and the API routes send back existing content in our server-side data or add new friends
+* Our 2 routing files (htmlRoutes.js and apiRoutes.js) determine the back-end logic (based on the request being made, the response that gets sent to the browser); the HTML routes display the survey and the homepage based on the URL that is accessed, and the API routes send back existing content in our server-side data or add new friends
 
-4) Best match is calculated by finding the friend with the minimal difference in scores and then sending that friend to the browser as a JSON object
+* Best match is calculated by finding the friend with the minimal difference in scores and then sending that friend to the browser as a JSON object
 
-5) A modal is then toggled, displaying the the best match to the person who just took the survey
+* A modal is then toggled, displaying the the best match to the person who just took the survey
 
-6) Friends are stored as such:
+* Friends are stored as such:
 
 {
         
