@@ -61,7 +61,9 @@ Walkthrough of the Code
 6) Friends are stored as such:
 
 {
+        
         "name":"Sachin",
         "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtr2eRCHA_TlrUYHJm24bNpBBh8_8kd9yaXjMrBZJCAlLhYB2KRw",
         "scores":[5, 1,4,4,5,1,2,5,4,1]
+
 }
