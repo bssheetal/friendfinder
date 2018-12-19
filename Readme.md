@@ -1,10 +1,10 @@
-Description
+# Description
 
 In need of a Friend or want to choose a famous personality who is so similar in your thoughts!Do use this Friend Finder app
 
 You can access the app here-https://famouspersonalityfinder.herokuapp.com/
 
-Technologies Used
+# Technologies Used
 
 JavaScript
 
@@ -19,7 +19,7 @@ HTML
 Bootstrap
 
 
-Framework structure
+# Framework structure
 
 FriendFinder
     - .gitignore
@@ -36,17 +36,17 @@ FriendFinder
     - package.json
     - server.js
 
-Friend-Finder Interface
+# Friend-Finder Interface
 
 This is a full stack web Application called as Friend Finder a dating app.The site will take in results from users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
-Installation:
+# Installation:
 
 server.js file should require the basic npm packages: express and path
 Command to run for installation:
 npm install express
 
-Walkthrough of the Code
+# Walkthrough of the Code
 
 1) server.js file sets up the Express server, specifying our port number, the npm packages that need to be loaded, and also the routes, which we have externalized
 
