@@ -26,11 +26,11 @@ module.exports = function (app) {
 
                 if (scores[j] >= newperson.scores[j]) {
                     difference = scores[j] - newperson.scores[j];
-                    //difference.push(scores[j]-newperson.scores[j]);
+                    
                 }
                 else if (newperson.scores[j] > scores[j]) {
                     difference = newperson.scores[j] - scores[j];
-                    //difference.push(scores[j]-newperson.scores[j]);
+                    
                 }
 
                 console.log("difference of scores of newperson and friendsarray is:" + difference);
@@ -40,9 +40,7 @@ module.exports = function (app) {
 
 
             totaldiffndata.push(totaldiff);
-            // friendsdata.push(totaldiffndata);
-            //console.log("friends data has"+friendsdata[i]);
-            // console.log("data in totaldiffn"+totaldiffndata);
+            
 
         }
         findbestmatch();
@@ -55,8 +53,7 @@ module.exports = function (app) {
             console.log("Smallest no is" + smallest);
             return smallest;
         }
-        //findbestmatch();
-        // friendsdata.push(newperson);
+        
 
         function displaybestmatch() {
 
