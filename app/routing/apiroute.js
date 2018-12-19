@@ -51,23 +51,20 @@ module.exports = function (app) {
 
         function findbestmatch() {
 
-            for (var j = 0; j < totaldiffndata.length - 1; j++) {
+            // for (var j = 0; j < totaldiffndata.length - 1; j++) {
 
-                console.log("length in array totaldiffndata is" + totaldiffndata.length);
-                console.log("data in totaldiffn zero" + totaldiffndata[j]);
-                console.log("data in totaldiffn oneposition" + totaldiffndata[j + 1]);
+            //     console.log("length in array totaldiffndata is" + totaldiffndata.length);
+            //     console.log("data in totaldiffn zero" + totaldiffndata[j]);
+            //     console.log("data in totaldiffn oneposition" + totaldiffndata[j + 1]);
 
-                if ((totaldiffndata[j]) < (totaldiffndata[j + 1])) {
-                    smallest = totaldiffndata[j];
-                }
+            //     if ((totaldiffndata[j]) < (totaldiffndata[j + 1])) {
+            //         smallest = totaldiffndata[j];
+            //     }
 
-                else {
-                    smallest = totaldiffndata[j + 1];
-                }
-
-
-
-            }
+            //     else {
+            //         smallest = totaldiffndata[j + 1];
+            //     }
+            smallest=Math.min.apply(Math,totaldiffndata);           
             console.log("Smallest no is" + smallest);
             return smallest;
         }
