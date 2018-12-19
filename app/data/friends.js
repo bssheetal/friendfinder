@@ -1,6 +1,6 @@
 var friendsArray=[
     {
-        "name":"sachin",
+        "name":"Sachin",
         "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtr2eRCHA_TlrUYHJm24bNpBBh8_8kd9yaXjMrBZJCAlLhYB2KRw",
         "scores":[
             5,
@@ -17,7 +17,7 @@ var friendsArray=[
       },
       
       {
-        "name":"deepika",
+        "name":"Deepika",
         "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb_gK1QL3pS-R5oAt8D0oac_W2gF1OW1EGYEHxVci0YrGq9B7b",
         "scores":[
             5,
@@ -31,8 +31,89 @@ var friendsArray=[
             4,
             1
           ]
-      }
-      
+      },
+      {
+        "name":"Priyanka",
+        "photo":"http://im.rediff.com/movies/2017/sep/14priyanka4.jpg",
+        "scores":[
+            1,
+            1,
+            1,
+            1,
+            1,
+            4,
+            2,
+            2,
+            2,
+            2
+          ]
+      },
+      {
+        "name":"Katy Perry",
+        "photo":"https://timedotcom.files.wordpress.com/2017/01/katy-perry-muslim-psa-japanese.jpg",
+        "scores":[
+            1,
+            3,
+            2,
+            1,
+            4,
+            1,
+            2,
+            3,
+            1,
+            2
+          ]
+      },
+      {
+        "name":"Ellie Goulding",
+        "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFq7aaRyNcX6Jnyq78nR8ear85sB7XdDR9ofrhJMl7A13juwed",
+        "scores":[
+            1,
+            1,
+            4,
+            3,
+            2,
+            1,
+            2,
+            1,
+            1,
+            2
+          ]
+      },
+
+      {
+        "name":"Ranveer Singh",
+        "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdgHq822m4ACK8xxhEio7Hodx2EK--NW2rIZNZCbnrRHUYZcLgA",
+        "scores":[
+            3,
+            4,
+            1,
+            3,
+            2,
+            1,
+            2,
+            4,
+            2,
+            3
+          ]
+      },
+
+      {
+        "name":"Shahrukh Khan",
+        "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4C4ofwcMpJNqm0yEmJNGRDcYbwjV8Rjszk4AFFlfyVZ_fpY2DvA",
+        "scores":[
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+      },
     ]
 
     module.exports=friendsArray;
